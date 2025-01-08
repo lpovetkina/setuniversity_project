@@ -43,12 +43,11 @@ pip install streamlit pdf2image easyocr
 mkdir -p /home/ubuntu/streamlit-app
 
 # Clone your Streamlit app repository (replace with your repo URL)
-
+sudo git clone https://github.com/lpovetkina/setuniversity_project.git /home/ubuntu/streamlit-app
 
 # Set ownership for the ubuntu
 sudo chown -R ubuntu:ubuntu /home/ubuntu/streamlit-app
 sudo chmod u+w /home/ubuntu/streamlit-app
-ls 
 # Navigate to the app directory
 cd /home/ubuntu/streamlit-app
 
